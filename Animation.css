@@ -1,0 +1,198 @@
+.NEW
+{
+  width:453px;
+  height:453px;
+  border:2px solid blue;
+  position: relative;
+  background: radial-gradient(circle,cyan,white);
+  left:35%;
+  top:10px;
+}
+#aa,#ab,#ac,#ba,#bb,#bc,#ca,#cb,#cc
+{
+  width:150px;
+  height:150px;
+  border:0.5px solid red;
+  font-size: 100px;
+  font-variant: small-caps;
+  position:relative;
+  text-align: center;
+}
+#aa:hover,#ab:hover,#ac:hover,
+#ba:hover,#bb:hover,#bc:hover,
+#ca:hover,#cb:hover,#cc:hover
+{
+  background:white;
+}
+#ab
+{
+  top:-453px;
+  left:151px;
+}
+#ac
+{
+  top:-906px;
+  left:302px;
+}
+#bb
+{
+  top:-453px;
+  left:151px;
+}
+#bc
+{
+  top:-906px;
+  left:302px;
+}
+#cb
+{
+  left:151px;
+  top:-453px;
+}
+#cc
+{
+  top:-906px;
+  left:302px;
+}
+.Main{
+  font-family: 'Asap',sans-serif;
+  color:#22a6b3;
+  letter-spacing: 2px;
+  position: relative;
+  left:40%;
+}
+.Main span
+{
+  font-size: 15px;
+}
+.prop button
+{
+  font-size: 24px;
+  background:linear-gradient(cyan,white);
+  border:1.2px solid red;
+  color:#f00;
+  padding:3px 20px;
+  position: relative;
+  left:180px;
+  top:-240px;
+}
+.prop button:hover
+{
+  color:white;
+  background: red;
+  border-radius: 10px;
+  border-color:silver;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+#status1
+{
+position:absolute;
+left:120px;
+top: 80px;
+font-size: 25px;
+background:linear-gradient(white,cyan);
+}
+#status
+{
+position:absolute;
+left:100px;
+top: 50px;
+font-family:'Asap',sans-serif;
+font-size: 20px;
+color:#22a6c3;
+}
+#User1,#User2
+{
+  width:60px;
+  height:45px;
+  color:white;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-family:'Asap',cursive;
+}
+#User1
+{
+  background-color: red;
+  position: relative;
+  left:682px;
+}
+#User2
+{
+  background-color: blue;
+  position: relative;
+  left:742px;
+  top:-45px;
+}
+#User1s
+{
+  position:absolute;
+  top:100px;
+  left:717px;
+  color:white;
+  font-weight: 900;
+  font-size: 20px;
+}
+#User2s
+{
+  position: absolute;
+  top:100px;
+  left:775px;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+}
+#An
+{
+  font-size: 18px;
+  font-weight:600;
+  padding:4px;
+  left:80.5%;
+  color:red;
+  position:absolute;
+  animation:iny infinite 5s linear alternate-reverse;
+  z-index: 6;
+  font-family: 'Asap',sans-serif;
+}
+#Ap
+{
+  width:85px;
+  height:85px;
+  border:2px solid blue;
+  background:white;
+  border-radius:15px;
+  position: absolute;
+  left:80%;
+  top:20px;
+  animation:inx infinite 5s linear alternate-reverse;
+}
+@keyframes inx {
+  from
+  {
+    top:80px;
+    transform:rotate(0deg);
+  }
+  to
+  {
+    top:575px;
+    transform:rotate(950deg);
+  }
+}
+@keyframes iny {
+  from
+  {
+    top:105px;
+  }
+  to
+  {
+    top:600px;
+  }
+}
+.Mn
+{
+  position: absolute;
+  width:100%;
+  height:100%;
+  background:#22a6b3;
+}
